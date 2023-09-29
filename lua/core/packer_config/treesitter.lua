@@ -5,6 +5,7 @@ require 'nvim-treesitter.configs'.setup {
     "comment",
     "dockerfile",
     "hcl",
+    "groovy",
     "python",
     "rust",
     "toml",

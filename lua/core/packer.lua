@@ -23,7 +23,10 @@ return require('packer').startup(function(use)
   }
   use 'glepnir/galaxyline.nvim'
   use 'nvim-treesitter/nvim-treesitter'
-  use 'lukas-reineke/indent-blankline.nvim'
+  use {
+    'lukas-reineke/indent-blankline.nvim',
+    tag = "v2.20.8",
+  }
   use 'lewis6991/gitsigns.nvim'
   use 'folke/todo-comments.nvim'
   use 'gpanders/editorconfig.nvim'
@@ -46,7 +49,7 @@ return require('packer').startup(function(use)
   }
   use {
     'nvim-telescope/telescope.nvim',
-    tag = '0.1.0',
+    tag = '0.1.3',
     requires = { { 'nvim-lua/plenary.nvim' } }
   }
   use {
