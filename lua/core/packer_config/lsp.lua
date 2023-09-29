@@ -9,6 +9,8 @@ local language_servers = {
   "terraformls",
   "gopls",
   "yamlls",
+  "groovy",
+  "groovyls",
 }
 require("mason-lspconfig").setup({
   ensure_installed = language_servers,
