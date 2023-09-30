@@ -7,3 +7,10 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
     vim.cmd [[ LspStop ]]
   end,
 })
+
+vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
+  pattern = { "Jenkinsfile", "*.Jenkinsfile" },
+  callback = function()
+    vim.b.filetype = "groovy"
+  end
+})
