@@ -7,6 +7,16 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
   end,
 })
 
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  pattern = "*.go",
+  callback = function(_)
+    vim.opt.autoindent = true
+    vim.opt.noexpandtab = true
+    vim.opt.tabstop = 8
+    vim.opt.shiftwidth = 8
+  end,
+})
+
 vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
   pattern = { "Jenkinsfile", "*.Jenkinsfile" },
   callback = function()
