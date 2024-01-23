@@ -58,6 +58,7 @@ return require('packer').startup(function(use)
       { "mfussenegger/nvim-dap" },
     }
   }
+  use "nathom/filetype.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
