@@ -22,7 +22,7 @@ return require('packer').startup(function(use)
     'kyazdani42/nvim-tree.lua',
   }
   use 'glepnir/galaxyline.nvim'
-  use 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  use { 'nvim-treesitter/nvim-treesitter', cmd = 'TSUpdate' }
   use {
     'lukas-reineke/indent-blankline.nvim',
     tag = "v2.20.8",
