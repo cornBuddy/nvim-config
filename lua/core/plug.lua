@@ -9,8 +9,9 @@ Plug('arcticicestudio/nord-vim')
 Plug('kyazdani42/nvim-web-devicons')
 Plug('kyazdani42/nvim-tree.lua')
 
+Plug('rktjmp/lush.nvim')
 Plug('glepnir/galaxyline.nvim')
-Plug('lukas-reineke/indent-blankline.nvim')
+Plug('lukas-reineke/indent-blankline.nvim', { ['branch'] = 'v2' })
 Plug('levouh/tint.nvim')
 
 Plug('lewis6991/gitsigns.nvim')
