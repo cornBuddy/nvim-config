@@ -9,6 +9,14 @@ vim.opt.smartcase = true
 vim.opt.scrolloff = 10
 vim.opt.swapfile = false
 
+vim.opt.listchars = {
+  tab = "▷⋅",
+  trail = "⋅",
+}
+vim.opt.termguicolors = true
+vim.opt.list = true
+vim.opt.colorcolumn = "80"
+
 -- remove trailing characters on save
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
   pattern = { "*" },
