@@ -23,6 +23,7 @@ Plug('smoka7/hop.nvim', { ['tag'] = '*' })
 Plug('folke/trouble.nvim')
 Plug('hrsh7th/nvim-cmp')
 Plug('hrsh7th/cmp-nvim-lsp')
+Plug('neovim/nvim-lspconfig')
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = 'TSUpdate' })
 
 Plug('L3MON4D3/LuaSnip')
@@ -31,9 +32,9 @@ Plug('rafamadriz/friendly-snippets')
 
 Plug('williamboman/mason.nvim')
 Plug('williamboman/mason-lspconfig.nvim')
-Plug('neovim/nvim-lspconfig')
 
 Plug('nvim-lua/plenary.nvim')
 Plug('nvim-telescope/telescope.nvim')
+Plug('tpope/vim-obsession')
 
 vim.call('plug#end')
