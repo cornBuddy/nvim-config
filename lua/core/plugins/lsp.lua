@@ -37,7 +37,6 @@ local on_attach = function(_, bufnr)
   nmap('gr', require("telescope.builtin").lsp_references, "[g]o to [r]eferences")
   nmap('K', vim.lsp.buf.hover, "hover documentation")
   nmap('<C-k>', vim.lsp.buf.signature_help, 'signature documentation')
-  nmap('<F4>', ":TroubleToggle document_diagnostics<CR>", "diagnostic")
 end
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
