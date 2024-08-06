@@ -10,6 +10,7 @@ local language_servers = {
   "gopls",
   "groovyls",
   "tsserver",
+  "helm_ls",
 }
 require("mason-lspconfig").setup({
   ensure_installed = language_servers,
