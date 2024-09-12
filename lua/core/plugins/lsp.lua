@@ -8,7 +8,6 @@ local language_servers = {
   "pylsp",
   "terraformls",
   "gopls",
-  "groovyls",
   "tsserver",
   "helm_ls",
 }
