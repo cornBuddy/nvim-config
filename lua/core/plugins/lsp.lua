@@ -8,7 +8,7 @@ local language_servers = {
   "pylsp",
   "terraformls",
   "gopls",
-  "tsserver",
+  "ts_ls",
   "helm_ls",
 }
 require("mason-lspconfig").setup({
