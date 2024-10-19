@@ -10,6 +10,7 @@ local language_servers = {
   "gopls",
   "ts_ls",
   "helm_ls",
+  "rust_analyzer",
 }
 require("mason-lspconfig").setup({
   ensure_installed = language_servers,
